@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --mainfont: "Raleway", sans-serif;
+    --maincolor:hsl(14, 45%, 36%);
+}
+body{
+    background-color:  hsl(30, 54%, 90%);
+}
+.continer{
+    background-color: hsl(0, 100%, 100%);
+    width: 500px;
+    height: 1500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    perspective: 200px;
+}
+.continer img{
+    width: 460px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 1s ;
+}
+img:hover{
+    transform: translate(10px, 10px);
+    box-shadow: 0px -10px 10px  hsl(30, 54%, 90%);
+
+}
+
+.continer .row1 h2{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 50px;
+        
+    }
+.continer .row1 p{
+    font-family: var(--mainfont);
+    line-height: 20px;
+    color:  hsl(30, 10%, 34%);
+    
+}
+.continer .row2{
+    width: 460px;
+    height: 150px;
+    background-color:hsl(330, 100%, 98%);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.row2 h3{
+    color:hsl(332, 51%, 32%);
+    padding: 5px;
+    margin: 10px ;
+}
+.row2 ul li{
+    list-style-position: inside;
+    color:  hsl(30, 10%, 34%);
+    margin: 5px;
+    padding-left: 30px;
+    font-family: var(--mainfont);
+    
+    
+}
+.row2 ::marker{
+    color:hsl(332, 51%, 32%); 
+}
+.row2 .first-word{
+    color:hsl(24, 5%, 18%) ;
+}
+.continer .row3 h2{
+    color: var(--maincolor);
+    font-family:"Young Serif", serif;;
+    margin-bottom: 15px;
+
+}
+.row3 ::marker{
+    color: var(--maincolor);
+}
+.row3 ul li{
+    font-family: var(--mainfont);
+    color:  hsl(30, 10%, 34%);
+    margin-left: 30px;
+    padding: 5px;
+}
+.br{
+    width: 100%;
+    height: 1px;
+    background-color: hsl(30, 10%, 34%);
+    opacity: 0.2;
+    margin-top: 20px;
+}
+.continer .row4 h2{
+    color: var(--maincolor);
+    font-family:"Young Serif", serif;
+    margin-top: 20px;
+}
+.row4 ::marker{
+    color: var(--maincolor);
+    font-weight: bold;
+}
+.row4 ol li{
+    color: hsl(30, 10%, 34%);
+    font-family: var(--mainfont);
+    padding: 5px;
+    margin-left: 30px;
+
+}
+.row4 .first-2{
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+}
+.continer .row5 h2{
+    color: var(--maincolor);
+    font-family: "Young Serif", serif;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.row5 p{
+    font-family: var(--mainfont);
+    color: hsl(30, 10%, 34%);
+    margin-left: 10px;
+}
+.continer .perant{
+    margin: 20px;
+}
+.perant .one{
+    display: flex
+    ;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 20px;
+        border-bottom: 1px solid #ddd;
+        font-family: var(--mainfont);
+}
+.perant .one .two{
+    color: hsl(30, 10%, 34%);
+}
+.perant .one .three{
+    color: var(--maincolor);
+    font-weight: bold;
+}
